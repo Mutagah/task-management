@@ -1,9 +1,11 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+puts "Seeding of the database tables..."
+
+    status = ["Pending", "Completed", "Cancelled"]
+
+        puts "Seeding of task data...."
+
+        Task.create!(name:"CV review",description:"Revamping of resume/cv",status: status.sample)
+
+        Task.create!(name:"Test your api endpoints", description:"Test proper working of task endpoints and routes",status:status.sample)
+
+puts "End of seeding database tables!!!"

@@ -1,0 +1,25 @@
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-y3fu1y sitelibdir\=./.gem.20240206-1360-y3fu1y clean
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-y3fu1y sitelibdir\=./.gem.20240206-1360-y3fu1y
+generating console-x64-mingw-ucrt.def
+compiling console.c
+linking shared-object io/console.so
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-y3fu1y sitelibdir\=./.gem.20240206-1360-y3fu1y install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240206-1360-y3fu1y/io
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-y3fu1y sitelibdir\=./.gem.20240206-1360-y3fu1y clean

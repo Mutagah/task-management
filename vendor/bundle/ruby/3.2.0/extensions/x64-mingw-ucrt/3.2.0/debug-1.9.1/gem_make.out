@@ -1,0 +1,20 @@
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-uluslu sitelibdir\=./.gem.20240206-1360-uluslu clean
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-uluslu sitelibdir\=./.gem.20240206-1360-uluslu
+generating debug-x64-mingw-ucrt.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-uluslu sitelibdir\=./.gem.20240206-1360-uluslu install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240206-1360-uluslu/debug
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-uluslu sitelibdir\=./.gem.20240206-1360-uluslu clean

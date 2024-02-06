@@ -1,0 +1,19 @@
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-wkh86w sitelibdir\=./.gem.20240206-1360-wkh86w clean
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-wkh86w sitelibdir\=./.gem.20240206-1360-wkh86w
+generating websocket_mask-x64-mingw-ucrt.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-wkh86w sitelibdir\=./.gem.20240206-1360-wkh86w install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240206-1360-wkh86w
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-wkh86w sitelibdir\=./.gem.20240206-1360-wkh86w clean

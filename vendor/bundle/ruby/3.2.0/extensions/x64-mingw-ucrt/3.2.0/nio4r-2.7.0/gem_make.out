@@ -1,0 +1,18 @@
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-b0bzgi sitelibdir\=./.gem.20240206-1360-b0bzgi clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-b0bzgi sitelibdir\=./.gem.20240206-1360-b0bzgi
+make: Nothing to be done for 'all'.
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-b0bzgi sitelibdir\=./.gem.20240206-1360-b0bzgi install
+make: Nothing to be done for 'install'.
+
+current directory: D:/Projects/Independent_Projects/smart_applications_group/task-management/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240206-1360-b0bzgi sitelibdir\=./.gem.20240206-1360-b0bzgi clean
+make: *** No rule to make target 'clean'.  Stop.

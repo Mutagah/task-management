@@ -24,10 +24,26 @@ class TasksController < ApplicationController
     end
     
     # getting the tasks via status of the task
+    def status
+        task = Task.where(status: params[:status].capitalize)
+        if task.length > 0
+            render json: tasks, status: :ok
+        else
+            render json: {error: "No tasks with #{params[:status]} status found"}, status: :not_found
+        end
+    end
 
     # deleting all the tasks
+    def tasks_delete
+        Task.destroy_all
+        head :no_content
+    end
 
     # deleting a task by an Id
+    def destroy
+        find_task.destroy!
+        head :no_content
+    end
 
     private
     
@@ -44,6 +60,5 @@ class TasksController < ApplicationController
         params[:status]&.capitalize!
         params.permit(:status)
     end
-
-
+    
 end
